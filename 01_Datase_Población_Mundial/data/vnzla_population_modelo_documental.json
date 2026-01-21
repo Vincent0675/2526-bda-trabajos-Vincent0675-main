@@ -1,0 +1,36 @@
+{
+    "pais": "Venezuela",
+    "geografia": {
+        "tipo": "Punto",
+        "coordenadas": [
+            6.42375,
+            -66.58973
+        ]
+    },
+    "datos_historicos": [
+        {
+            "Year": 2000,
+            "Population": 24427729
+        },
+        {
+            "Year": 2010,
+            "Population": 28715022
+        },
+        {
+            "Year": 2015,
+            "Population": 30529716
+        },
+        {
+            "Year": 2020,
+            "Population": 28490453
+        },
+        {
+            "Year": 2022,
+            "Population": 28301696
+        }
+    ],
+    "metadata": {
+        "creado_el": "2025-11-25T17:21:07.114983",
+        "autor": "Byron V. Blatch Rodr\u00edguez"
+    }
+}

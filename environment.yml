@@ -1,0 +1,16 @@
+name: bigdata_env
+channels:
+  - conda-forge
+dependencies:
+  - faker
+  - ipykernel
+  - matplotlib
+  - nbformat
+  - pandas
+  - plotly
+  - pymongo
+  - python=3.10
+  - pip:
+    - Faker==37.12.0
+    - hglib==2.6.2
+    - tzdata==2025.2

@@ -1,0 +1,75 @@
+# ================================================
+# .gitignore - Laboratorio Clúster Big Data
+# ================================================
+
+# === CRÍTICO: Datos de Docker (NO SUBIR) ===
+Big-Data-Cluster/data/
+Big-Data-Cluster/**/data/
+Big-Data-Cluster/volumes/
+**/volumes/
+data/
+
+# === Logs de contenedores (pueden ser > 1GB) ===
+*.log
+Big-Data-Cluster/logs/
+logs/
+*.out
+
+# === Temporales de Hadoop/HDFS ===
+*.tmp
+.tmp/
+Big-Data-Cluster/*.tmp
+Big-Data-Cluster/**/*.tmp
+
+# === Configuraciones sensibles ===
+*.env.local
+hadoop.env.backup
+.secrets/
+credentials.txt
+
+# === Notebooks (checkpoints) ===
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+notebooks/*-checkpoint.ipynb
+**/.ipynb_checkpoints
+
+# === Capturas pesadas ===
+docs/screenshots/*.mp4
+docs/screenshots/*.gif
+docs/screenshots/*.mov
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.directory
+
+# === IDE ===
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+
+# === Git interno (ya eliminado) ===
+Big-Data-Cluster/.git/
+Big-Data-Cluster/.github/
+
+# === Build artifacts ===
+*.class
+*.jar
+target/
+build/

@@ -1,0 +1,51 @@
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+
+# OS
+.DS_Store
+
+# Big Data (Evita subir datos pesados por error)
+#*.csv
+#*.json
+#*.parquet
+consumos_generacion.csv
+propietarios.csv
+# Excepción: Si tienes CSVs de ejemplo muy pequeños (kb) que sí quieres subir,
+# puedes forzarlos luego, pero por defecto bloquéalos para evitar accidentes.
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IMPORTANTE: No subir datos de Docker
+Big-Data-Cluster/data/
+Big-Data-Cluster/**/data/
+Big-Data-Cluster/volumes/
+
+# Logs pesados de contenedores
+*.log
+Big-Data-Cluster/logs/
+
+# Temporales de Hadoop/HDFS
+*.tmp
+.tmp/
+
+# Notebooks con outputs
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Configuraciones sensibles
+*.env.local
+hadoop.env.backup
+
+# Sistema
+.DS_Store
+__pycache__/
+*.py
